@@ -29,3 +29,22 @@ function divideNumber(num1, num2){
     return num1/num2;
 }
 
+function operation(operation, num1, num2){
+    switch (operation) {
+        case "+":
+            return addNumber(num1, num2);
+            break;
+        
+        case "-":
+            return substractNumber(num1, num2);
+            break;
+
+        case "*":
+            return multiplyNumber(num1, num2);
+            break;
+        
+        case "/":
+            return (num1, num2);
+            break;
+    }
+}
